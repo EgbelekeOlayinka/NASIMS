@@ -1,0 +1,25 @@
+p {
+  font-family: "Ms Madi", cursive;
+  font-size: larger;
+  font-style: italic;
+  font-weight: 200;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 2.5px;
+  text-align: left;
+}
+form {
+  text-align: right;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+#img {
+  padding: 10px;
+}
