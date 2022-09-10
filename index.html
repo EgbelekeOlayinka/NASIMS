@@ -11,14 +11,18 @@
   <body>
     <main>
       <nav>
-        <img id="img" src="https://nasims.gov.ng/nasims-logo.webp" alt="NASIMS" />
-        <a href="https://nasims.gov.ng/">Home</a>
-        <a href="https://nasims.gov.ng/about">About</a>
-        <a href="https://nasims.gov.ng/news">News</a>
-        <a href="https://nasims.gov.ng/contact">Contact</a>
+        <div>
+          <img id="img" src="https://nasims.gov.ng/nasims-logo.webp" alt="NASIMS" />
+        </div>
+        <div id="nav">
+          <a href="https://nasims.gov.ng/">Home</a>
+          <a href="https://nasims.gov.ng/about">About</a>
+          <a href="https://nasims.gov.ng/news">News</a>
+          <a href="https://nasims.gov.ng/contact">Contact</a>
+        </div>
       </nav>
       <h1>Login to your NASIMS Account</h1>
-      <div>
+      <div style="background: rgb(219, 249, 234); padding: 1px; border: 1px solid rgb(27, 184, 48); margin: 1px">
         <h3>For biometrics enrolment, kindly follow the instructions below;</h3>
         <ol>
           <li>Login to your dashboard and click the "verification" tab</li>
@@ -31,32 +35,16 @@
         </ol>
         <p>After successful enrolment, please check the "verification" tab of your self service portal to confirm if the capture was successful.</p>
       </div>
-      <form action="" method="post">
-        <div class="form">
-          <input id="email" type="email" placeholder="Email/Application ID" class="form" />
-        </div>
-        <br />
-        <div class="form">
-          <input id="password" type="password" placeholder="Enter Password" class="form" />
-        </div>
-        <br />
-        <div class="row">
-          <div class="form-group">
-            <div class="form-group">
-              <input id="remember" type="checkbox" class="form-group" />
-              <label for="remember" class="form-group"> Keep me logged in </label>
-            </div>
-          </div>
-          <a role="button">Forgot Password</a>
-        </div>
-        <button type="submit" disabled="disabled" class="button">
-          <span>Proceed </span>
-        </button>
-      </form>
-      <div>
-        <i role="button" class="icon"> </i>
-        <img src="https://embed.tawk.to/_s/v4/assets/images/attention-grabbers/168-r-br.svg" alt="Chat attention grabber" style="width: 124px; height: 79px" />
-      </div>
+      <input type="email" placeholder="Email/Application ID" />
+      <br />
+      <br />
+      <input type="password" placeholder="Enter Password" />
+      <br />
+      <br />
+      <input type="checkbox" name="Keep me logged in" id="" />Keep me logged in
+      <p id="forgot">Forgot Password</p>
+      <br />
+      <button>Proceed</button>
     </main>
   </body>
 </html>

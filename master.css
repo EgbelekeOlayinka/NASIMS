@@ -1,25 +1,25 @@
-p {
-  font-family: "Ms Madi", cursive;
-  font-size: larger;
-  font-style: italic;
-  font-weight: 200;
+#img {
+  width: 80px;
 }
-h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: larger;
-  font-style: italic;
-  font-weight: 200;
-  text-shadow: 2.5px;
-  text-align: left;
-}
-form {
-  text-align: right;
+
+button {
+  color: white;
+  background-color: rgb(115, 177, 144);
+  border-color: green;
+  padding: 5px 100px;
 }
 a {
   text-decoration: none;
   color: grey;
 }
 
-#img {
-  width: 80px;
+p {
+  color: green;
+}
+#forgot {
+  color: rgb(40, 136, 122);
+}
+
+h3 {
+  color: rgb(40, 136, 122);
 }
